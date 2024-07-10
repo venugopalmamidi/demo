@@ -1,0 +1,150 @@
+#container{
+    width: 1050px;
+    height: 100px;
+    /* border:1px solid grey; */
+    margin: 0 auto;
+}
+h1 a{
+    font-weight:200;
+    text-decoration: none;
+    color: green;
+    font-size: 50px;
+    
+}
+#searchbox{
+    float: right;
+    background:linear-gradient(#E4F2B9,#B7E953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+}
+#brand{
+    float: left;
+}
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    background: white url(images/searchh.png) right no-repeat;
+}
+.submit{
+    float: right;
+    background: #A751D6;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+
+}
+#header
+{  height: 100px;
+
+}
+.class{
+    clear: both;
+}
+ul
+{
+   list-style: none; 
+}
+#menu ul li{
+    padding: 0px 30px;
+    float: left;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+    
+    
+}
+#menu
+{   padding: 7px 0px;
+    height: 70px;
+    background: linear-gradient(#F8F594,#D5D533);
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color : #5d12e7; 
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color: #B314DB;
+}
+#introduction
+{
+    background: linear-gradient(#E5F2BB,#E7E952);
+    padding: 20px;
+    margin: 16px 0px;
+    font-size: 20px;
+}
+#introduction h3{
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal
+    
+}
+#introduction p{
+    font-size: 25px;
+    color: #628f19;
+    text-align: justify;
+}
+.sidebar{
+    height: 550px;
+    width: 480px;
+    border: 2px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+#leftside{
+    float: left;
+}
+#rightside{
+    float: right;
+}
+.sidebar h3{
+    color:red;
+    font-size: 30px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color : #5d12e7; 
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #B314DB;
+    font-size: 23px;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+}
+
+#leftside ul li{
+padding: 6px;
+list-style-image: url(images/arrowsize.png);
+padding-left: 10px;
+}
+#rightside ul li{
+padding :6px;
+list-style-image: url(images/correctsize.png);
+padding-left: 10px;
+padding-bottom: 20px;
+padding-top: 10px;
+}
+.footer{
+    /* /height: 100px; */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 67%;
+}
